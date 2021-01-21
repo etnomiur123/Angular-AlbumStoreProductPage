@@ -1,7 +1,6 @@
-import { Http, Response } from '@angular/http';
+import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
-import { map } from 'rxjs/operators';
 import { Album } from './album';
 import { Observable } from 'rxjs/Observable';
 @Injectable()
